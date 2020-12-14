@@ -10,7 +10,7 @@ jobs:
       - name: Build project with Maven
         run: mvn clean install
       - name: Depcheck
-        uses: javidr/depcheckaction@master
+        uses: javixeneize/DependencyCheck_Action@master
         id: Depcheck
         with:
           project: 'test'
