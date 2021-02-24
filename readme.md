@@ -7,6 +7,7 @@ A hello world would be needed to run this test. I suggest using something like h
 
 
 Example:
+```
 
 on: [push]
 
@@ -31,3 +32,4 @@ jobs:
         with:
            name: Depcheck report
            path: ${{github.workspace}}/reports
+```
